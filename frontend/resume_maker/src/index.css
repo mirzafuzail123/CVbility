@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bubbleTop {
+    /* position: fixed; */
+    background: white;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.bubbleTop:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: white transparent;
+    border-width: 0 20px 27px;
+    top: -27px;
+    margin-left: -20px;
+}
+
+.bubbleLeft {
+    background: white;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.bubbleLeft:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent white;
+    border-width: 18px 24px 18px 0;
+    left: -24px;
+    margin-top: -18px;
+}
+
+
+
+.bubbleRight {
+    background: white;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.bubbleRight:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent white;
+    border-width: 20px 0 20px 25px;
+    right: -25px;
+    margin-top: -20px;
+}
+
+.dpFirst {
+    width: 220px;
+    height: 220px;
+    background-color: #E2E2E2;
+    border-radius: 100%
+}
+
+.dpSecond {
+    width: 220px;
+    height: 220px;
+    background-color: #E2E2E2;
+    border-radius: 50px 100px 10px 40px
+}
+
+.dpThird {
+    width: 220px;
+    height: 220px;
+    background-color: #E2E2E2;
+    border-radius: 50px 100px 70px 30px;
+
+}
+
+
+.dpForth {
+    width: 220px;
+    height: 220px;
+    background-color: #E2E2E2;
+}
+
+.dpFifth {
+    width: 220px;
+    height: 220px;
+    background-color: #E2E2E2;
+    border-radius: 20px;
+
+}
+
+.dpFirstBorder {
+    width: 230px;
+    height: 230px;
+    border-radius: 100%
+}
+
+.dpSecondBorder {
+    width: 230px;
+    height: 230px;
+    border-radius: 50px 100px 10px 40px
+}
+
+.dpThirdBorder {
+    width: 230px;
+    height: 230px;
+    border-radius: 50px 100px 70px 30px;
+
+}
+
+
+.dpForthBorder {
+    width: 230px;
+    height: 230px;
+}
+
+.dpFifthBorder {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+
+}
